@@ -1,6 +1,6 @@
 shopping_list = []
 
-def items():
+def display_menu():
     while True:
         choice = input("Enter your choice: ")
         if choice == '1':
@@ -27,4 +27,4 @@ def items():
         else:
             print("Invalid choice. Please try again.")
 
-print(items())
+print(display_menu())
