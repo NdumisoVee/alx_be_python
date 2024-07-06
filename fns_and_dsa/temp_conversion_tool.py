@@ -1,5 +1,5 @@
-FAHRENHEIT_TO_CELSIUS_FACTOR = (5 / 9)
-CELSIUS_TO_FAHRENHEIT_FACTOR = (9 / 5)
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
 temp_to_convert = float(input("Enter the temperature to convert: "))
 # if type(temp_to_convert) == str:
