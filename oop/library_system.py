@@ -16,7 +16,7 @@ class Book:
 
 
 # Derived Class - EBook
-class EBook(Book):
+class EBook:
     def __init__(self, title, author, file_size):
         super().__init__(title, author)
         self._file_size = file_size
@@ -30,7 +30,7 @@ class EBook(Book):
 
 
 # Derived Class - PrintBook
-class PrintBook(Book):
+class PrintBook:
     def __init__(self, title, author, page_count):
         super().__init__(title, author)
         self._page_count = page_count
